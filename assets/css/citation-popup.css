@@ -1,0 +1,48 @@
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    max-width: 600px;
+    width: 90%;
+}
+
+.popup pre {
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.popup pre code {
+    display: block;
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
+.popup-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 30px;  /* Make the X larger */
+    width: 30px;      /* Give it more clickable area */
+    height: 30px;     /* Give it more clickable area */
+    text-align: center;
+    line-height: 30px;
+}
+
+.popup-copy {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
