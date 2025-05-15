@@ -584,7 +584,7 @@ input, select, textarea {
 			color: var(--color-light);
 			font-size: 1.35em;
 			line-height: 1.75em;
-			margin: 0;
+			margin: -0.75em 0 0.75em 0;
 		}
 
 		#header .image.avatar {
@@ -606,7 +606,7 @@ input, select, textarea {
 		#footer .icons {
 			display: grid;
 			grid-template-columns: repeat(4, auto);
-			gap: 1.5em;
+			gap: 0.4em;
 			padding: 0;
 			margin: 0 auto;
 			width: auto;
@@ -993,4 +993,21 @@ li {
 	border-color: var(--color-dark);
 	color: var(--color-dark) !important;
 	background: rgba(255, 255, 255, 0.1);
+}
+
+.photo-credit {
+    font-size: 0.8em;
+    color: var(--color-light);
+    margin-top: -1.5em;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.photo-credit a {
+    color: var(--color-light);
+}
+
+.photo-credit a:hover {
+    color: var(--color-lighter);
+    -webkit-text-stroke: 1px var(--color-light); 
 }
