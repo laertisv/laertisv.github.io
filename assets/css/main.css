@@ -11,8 +11,8 @@
 :root {
     --color-dark: #2C3E50;
     --color-dark-alt: #34495E;
-    --color-mid: #7F8C8D;
-    --color-light: #BDC3C7;
+    --color-mid: #5D6D7E;
+    --color-light: #ECF0EC;
     --color-lighter: #ECF0F1;
 }
 
@@ -986,13 +986,12 @@ li {
 	text-align: center;  
 	border-color: var(--color-mid);
 	color: var(--color-mid) !important;
-	background: transparent;
 }
 
 .button.supersmall:hover {
 	border-color: var(--color-dark);
 	color: var(--color-dark) !important;
-	background: rgba(255, 255, 255, 0.1);
+	background-color: #efefef;
 }
 
 .photo-credit {
